@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<%= render :partial => "shared/public_header" %>
+</head>
+<body>
+	<div class="container">
+		<%= render :partial => "shared/public_top_bar" %>
+		<%= render :partial => "shared/public_menu" %>
+
+		<%= yield %>
+
+		<%= render :partial => "shared/footer" %>
+	</div>
+
+</body>
+</html>

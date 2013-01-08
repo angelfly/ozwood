@@ -1,0 +1,20 @@
+/* Top Bar */
+.topbar {
+  height: 20px;
+  padding: 5px 10px;
+  font-size: 10px;
+}
+
+.topbar-locale {
+  margin-right: 10px;
+}
+
+.topbar-locale span {
+  vertical-align: top;
+}
+
+.topbar-select {
+  width: 100px;
+  height: 22px;
+  font-size: 10px;
+}
